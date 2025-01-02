@@ -1,0 +1,5 @@
+module donatello-oop-cpp
+typeinfo appdonatello-oop-cpp.qmltypes
+prefer :/qt/qml/donatello-oop-cpp/
+Main 1.0 Main.qml
+

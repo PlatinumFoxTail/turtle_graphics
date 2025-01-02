@@ -1,0 +1,13 @@
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/Turtle.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/Turtle_qmlimportscan.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/TurtleTests.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/edit_cache.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/rebuild_cache.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/list_install_components.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/install.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/install/local.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/install/strip.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/Turtle_autogen_timestamp_deps.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/Turtle_autogen.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/TurtleTests_autogen_timestamp_deps.dir
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/TurtleTests_autogen.dir

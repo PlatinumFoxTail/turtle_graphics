@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>turtle_window</class>
+ <widget class="QWidget" name="turtle_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>turtle_window</string>
+  </property>
+  <widget class="PaintArea" name="turtle_widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>731</width>
+     <height>571</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>640</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>System</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(0, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string>START</string>
+   </property>
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::MediaPlaybackStart"/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>300</number>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton_2">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>740</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>System</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(0, 85, 127);</string>
+   </property>
+   <property name="text">
+    <string>LOAD</string>
+   </property>
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentNew"/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>640</y>
+     <width>621</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::InputMethodHint::ImhMultiLine</set>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="pen_button">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>590</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>System</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Toggle Drawing</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>490</y>
+     <width>212</width>
+     <height>54</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="slider_layout">
+    <item>
+     <widget class="QLabel" name="width_slider_label">
+      <property name="font">
+       <font>
+        <family>System</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::FocusPolicy::NoFocus</enum>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Plain</enum>
+      </property>
+      <property name="text">
+       <string>Width Slider (slide)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="width_slider">
+      <property name="accessibleName">
+       <string/>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="sliderPosition">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>560</y>
+     <width>218</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="color_picker_button">
+      <property name="font">
+       <font>
+        <family>System</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string> Color Picker (click)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="color_frame">
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>590</y>
+     <width>411</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>System</family>
+     <pointsize>17</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>INSERT COMMANDS BELOW, THEN CLICK START:</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>50</y>
+     <width>251</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>System</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="tabletTracking">
+    <bool>true</bool>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'System'; font-size:14pt; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: underline;&quot;&gt;Commands : &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Sustem'; font-size:12pt; font-weight:400;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;forward(&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;x  &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt; : &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt;Moves turtle forward by &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:400; font-style:italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt; amount in the preset direction.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;- &lt;span style=&quot; font-size:12pt;&quot;&gt;turn(&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;x  &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt; : &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt;Turns the turtle by &lt;/span&gt;x&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt; amount of degrees to the right.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;setDraw(&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;true / false &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt; : &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt;Makes the turtle draw while moving(=&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:400; font-style:italic;&quot;&gt;true &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt;) or not(=&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:400; font-style:italic;&quot;&gt;false &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:400;&quot;&gt;).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton_3">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>690</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>System</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(0, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string>RESET</string>
+   </property>
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::MediaPlaybackStop"/>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>300</number>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PaintArea</class>
+   <extends>QWidget</extends>
+   <header location="global">paintarea.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

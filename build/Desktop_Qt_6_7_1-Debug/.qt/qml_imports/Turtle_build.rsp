@@ -1,0 +1,9 @@
+-rootPath
+/home/habmarti/donatello-oop-cpp
+-cmake-output
+-output-file
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/Turtle_build.cmake
+-importPath
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug
+-importPath
+/home/habmarti/Qt/6.7.1/gcc_64/./qml

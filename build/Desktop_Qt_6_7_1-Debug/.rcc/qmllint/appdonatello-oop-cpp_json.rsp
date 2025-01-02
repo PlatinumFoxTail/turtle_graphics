@@ -1,0 +1,12 @@
+--bare
+-I
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug
+-I
+/home/habmarti/Qt/6.7.1/gcc_64/./qml
+--resource
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_donatello-oop-cpp.qrc
+--resource
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appdonatello-oop-cpp_raw_qml_0.qrc
+/home/habmarti/donatello-oop-cpp/Main.qml
+--json
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/appdonatello-oop-cpp_qmllint.json

@@ -1,0 +1,124 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Turtle",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "drawSamplePath",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "x",
+                        "notify": "positionChanged",
+                        "read": "getX",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "y",
+                        "notify": "positionChanged",
+                        "read": "getY",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "angle",
+                        "notify": "angleChanged",
+                        "read": "getAngle",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "drawing",
+                        "notify": "drawingChanged",
+                        "read": "isDrawing",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Turtle",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "positionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "angleChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "drawingChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "startX",
+                                "type": "double"
+                            },
+                            {
+                                "name": "startY",
+                                "type": "double"
+                            },
+                            {
+                                "name": "endX",
+                                "type": "double"
+                            },
+                            {
+                                "name": "endY",
+                                "type": "double"
+                            }
+                        ],
+                        "name": "drawLine",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "turtle.h",
+        "outputRevision": 68
+    }
+]

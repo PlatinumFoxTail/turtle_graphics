@@ -1,0 +1,5 @@
+--resource
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_donatello-oop-cpp.qrc
+--resource
+/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appdonatello-oop-cpp_raw_qml_0.qrc
+/qt/qml/donatello-oop-cpp/Main.qml

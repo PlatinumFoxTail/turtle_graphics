@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-79f7c6683999ddcb4fc3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Turtle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Turtle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Turtle-Debug-ceda7ee95e7fda315373.json",
+					"name" : "Turtle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TurtleTests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TurtleTests-Debug-e120363f1c37ac2acc6c.json",
+					"name" : "TurtleTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TurtleTests_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TurtleTests_autogen-Debug-f8d8cd7d324c69574008.json",
+					"name" : "TurtleTests_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TurtleTests_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TurtleTests_autogen_timestamp_deps-Debug-f283f394d84c75afc3e1.json",
+					"name" : "TurtleTests_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Turtle_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Turtle_autogen-Debug-772ba68e6769a63b12d6.json",
+					"name" : "Turtle_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Turtle_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Turtle_autogen_timestamp_deps-Debug-d223ff8f395c57d41f3c.json",
+					"name" : "Turtle_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Turtle_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Turtle_qmlimportscan-Debug-ecc053c9878c21cf96eb.json",
+					"name" : "Turtle_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/habmarti/donatello-oop-cpp/build/Desktop_Qt_6_7_1-Debug",
+		"source" : "/home/habmarti/donatello-oop-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

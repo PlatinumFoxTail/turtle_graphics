@@ -1,0 +1,45 @@
+[
+    {"command": "setDraw", "value": false},
+    {"command": "turn", "value": 45},
+    {"command": "forward", "value": 100},
+    {"command": "setDraw", "value": true},
+ 
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 90},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 90},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 90},
+    {"command": "forward", "value": 100},
+
+    {"command": "setDraw", "value": false},
+    {"command": "forward", "value": 100},
+    {"command": "setDraw", "value": true},
+
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 120},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 120},
+    {"command": "forward", "value": 100},
+
+    {"command": "setDraw", "value": false},
+    {"command": "forward", "value": 100},
+    {"command": "setDraw", "value": true},
+
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 45},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 45},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 45},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 45},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 45},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 45},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 45},
+    {"command": "forward", "value": 100},
+    {"command": "turn", "value": 45}
+]

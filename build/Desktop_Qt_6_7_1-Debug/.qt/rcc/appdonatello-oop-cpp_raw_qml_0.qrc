@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/donatello-oop-cpp/">
+    <file alias="Main.qml">/home/habmarti/donatello-oop-cpp/Main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,10 @@
+# ninja log v5
+0	291	1731393625992689079	Turtle_autogen/timestamp	1b45f03d898c5259
+0	291	1731393625992689079	Turtle_autogen/mocs_compilation.cpp	1b45f03d898c5259
+0	291	1731393625992689079	/home/habmarti/donatello-oop-cpp/Turtle Prototype/Turtle/build/Desktop_Qt_6_7_1-Debug/Turtle_autogen/timestamp	1b45f03d898c5259
+0	291	1731393625992689079	/home/habmarti/donatello-oop-cpp/Turtle Prototype/Turtle/build/Desktop_Qt_6_7_1-Debug/Turtle_autogen/mocs_compilation.cpp	1b45f03d898c5259
+291	1326	1731393627031695047	CMakeFiles/Turtle.dir/main.cpp.o	26007cd1cdf1d8bc
+291	1770	1731393627474697856	CMakeFiles/Turtle.dir/Turtle_autogen/mocs_compilation.cpp.o	768e3304b156eb83
+292	1866	1731393627570698465	CMakeFiles/Turtle.dir/paintarea.cpp.o	890c6d906753d751
+292	3213	1731393628916707553	CMakeFiles/Turtle.dir/turtle_window.cpp.o	9a9b91ae2fe6bb60
+3213	3478	1731393629181709502	Turtle	f7fe15ca0da4a852

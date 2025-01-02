@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/kuva_donatello.png</file>
+        <file>src/ouch.mp3</file>
+    </qresource>
+</RCC>

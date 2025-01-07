@@ -33,4 +33,3 @@ Overview of the folders in the repository:
 - doc: documentation at end of project
 - tests: testing of software
 - build: build files
-- CMakeFiles: cmake files

@@ -14,12 +14,12 @@ This repository is for a group project in the "ELEC-A7151 Object Oriented Progra
 
 ```bash
 git@github.com:PlatinumFoxTail/turtle_graphics.git
-```
+```bash
 2. Open the terminal and run the executable:
 
 ```bash
 cd build/Desktop_Qt_6_7_1-Debug && ./Turtle
-```bash
+```
 
 3. The software opens up in a new window. Enjoy!
 

@@ -1,6 +1,0 @@
-[
-    {"command": "setDraw", "value": true},
-    {"command": "forward", "value": 100},
-    {"command": "turn", "value": 90},
-    {"command": "forward", "value": 50}
-]

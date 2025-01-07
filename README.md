@@ -30,6 +30,6 @@ Overview of the folders in the repository:
 
 - src: source files of the software
 - plan: the mandatory plan prior project start
-- doc: documentation at end of project
+- doc: documentation at end of project + sprint memos
 - tests: testing of software
 - build: build files

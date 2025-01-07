@@ -1,18 +1,20 @@
 # Test files
 
-It is a common practice to do unit tests of each class before you integrate it into the project to validate its operation.
-In this folder, you can create your own unit test files to validate the operation of your components.
+test_square.h tests that the commands forward(x) and turn(x) works as intended.
 
-> It might be a good idea to also take some notes about the tests since you are required to 
-  report these in the final report.
+test_boundry.h tests that the turtle agent stays within the window.
 
-# Unit Tests
+# Run the tests
 
-## Test of MyClass
+1. Build the project
 
-**Involved Classes:**
+2. Run the tests:
 
-**Test File:**
+    ```bash
+    cd build/Desktop_Qt_6_7_1-Debug && ./TurtleTests
+    ```
+# Valgrind
 
-**Results:**
+No memory issues identified when analyzed in Qt Creator.
+
 
